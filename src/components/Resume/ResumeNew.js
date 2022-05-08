@@ -11,6 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const resumeLink =
   "https://github.com/hiren14/hiren14.github.io/raw/main/src/Assets/hiren%20lalni_cv.pdf";
 
+
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
