@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/hiren lalni_cv (1).pdf";
+import pdf from "../../Assets/hiren lalni_cv.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/hiren14/game_rps/blob/main/hiren%20lalni_cv%20(1).pdf";
+  "https://github.com/hiren14/hiren14.github.io/raw/main/src/Assets/hiren%20lalni_cv.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
