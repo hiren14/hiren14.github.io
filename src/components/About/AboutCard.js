@@ -10,8 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">HIREN LALANI </span>
             from <span className="purple"> Surat,Gujarat, India.</span>
-            <br />I am a UNDERGUDATE at Goverment engineering college Patan in computer science
-            Mesra.
+            <br />I am a UNDERGUDATE at Goverment engineering college Patan in computer science.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
